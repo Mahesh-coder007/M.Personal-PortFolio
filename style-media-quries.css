@@ -1,0 +1,66 @@
+@media screen and (max-width: 991px) {
+  h2 {
+    font-size: 1em;
+  }
+
+  .nav-toggle {
+    display: inline-block;
+    padding-right: 1vw;
+  }
+
+
+  nav > ul,.hire-btn {
+    /* display: none; */
+  }
+  /* page1 */
+  .hero p {
+    width: 45vw;
+  }
+
+  /* page2 */
+  .page2 h1 {
+    font-size: 3rem;
+  }
+  .logo-imgs img {
+    width: 14%;
+  }
+  .center-comp h2 {
+    font-size: 1.3rem;
+  }
+
+  /* page3 */
+  .top-h {
+    padding-top: 6.5%;
+  }
+  .bottom-h {
+    top: -7%;
+  }
+
+  /* footer */
+
+  footer a{
+    font-size:.8em ;
+  }
+  footer .l h3{
+    font-size: .9em;
+    font-weight: 400;
+  }
+
+}
+
+@media screen and (max-width:576px) {
+    
+      .nav-toggle {
+        display: none;
+        padding-right: 1vw;
+
+      }
+      nav .hire-btn > button {
+        padding: 7px 15px;
+
+      }
+      nav > ul{
+        display: none;
+    
+    }
+}
