@@ -35,9 +35,10 @@ li {
 }
 
 /* hidden for laptop */
-.nav-toggle {
+.nav-toggle{
   display: none;
 }
+
 
 #circle {
   pointer-events: none;
@@ -58,9 +59,10 @@ li {
   text-align: center;
   width: 100%;
   overflow-y: hidden;
-  overflow-x: hidden;
+  overflow-x:hidden;
 }
 .bounding > .bound-elem {
+  /* background-color: lightgreen; */
   transform: translateY(100%);
 }
 .main {
@@ -150,55 +152,22 @@ nav .hire-btn > button:hover {
   width: 60vw;
 }
 .page2 {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-}
-.page2 .img-cunt {
-  position: absolute;
-  z-index: 9;
-  width: 30%;
-  height: 70%;
-  border-radius: 2%;
-  overflow: hidden;
-  opacity: .8;
-}
-.page2 .img-cunt img {
-  width: 100%;
-  
-}
-.page2 .cunt1{
-  top:5%;
-  left: 3%;
-}
-.page2 .cunt2 {
-  top: 25%;
-  right: 3%;
-}
-.p2-hero {
-  position: relative;
-  z-index: 999;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 96vh;
   display: flex;
-  align-items: center;
+  align-items:flex-start;
   justify-content: center;
   flex-direction: column;
 }
-.page2 .p2-h3 {
-  width: 60%;
-}
-.page2 h3 {
-  font-size: 3em;
-  color: #fff;
+
+.page2 h1 {
+  font-size: 5rem;
+  color: #000;
   text-transform: capitalize;
   padding-bottom: 40px;
-  /* width: 64vw; */
-  text-align: center;
+  width: 64vw;
 }
-.page2 .images-logo {
-  text-align: center;
-}
+
 .logo-imgs img {
   width: 15%;
   aspect-ratio: 4/2;
@@ -360,8 +329,9 @@ nav .hire-btn > button:hover {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  
 }
-.footer1 {
+.footer1{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -416,6 +386,7 @@ footer {
   display: flex;
   justify-content: center;
   gap: 10vw;
+  
 }
 footer > ul {
   margin: 150px auto 0;
